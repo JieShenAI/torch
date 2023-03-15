@@ -1,0 +1,9 @@
+WARNING conda.gateways.disk.delete:unlink_or_rename_to_trash(143): 
+Could not remove or rename C:\Users\jshen\anaconda3\pkgs\cuda-nvrtc-11.6.124-0.tar.bz2.  
+Please remove this file manually (you may need to reboot to free file handles)
+WARNING conda.gateways.disk.delete:unlink_or_rename_to_trash(143): 
+Could not remove or rename C:\Users\jshen\anaconda3\pkgs\libcurand-dev-10.3.1.50-0.tar.bz2.  
+Please remove this file manually (you may need to reboot to free file handles)
+
+
+https://blog.csdn.net/weixin_39417324/article/details/122090285
