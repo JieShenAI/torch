@@ -1,8 +1,8 @@
 # BBC 文章分类
 # 数据集来源: https://www.kaggle.com/competitions/learn-ai-bbc/
 # 代码参考: https://mp.weixin.qq.com/s/00on_zUFjAmnoSb_8j0QMw
+# https://xungejiang.com/2020/06/06/BERT/
 
-# 下一步: https://xiuweihan.cn/2021/04/15/2021-04-15-nlp%E4%B9%8Btransformers%E5%BA%93/
 import torch
 from torch import nn
 from transformers import BertModel, AutoTokenizer
@@ -196,7 +196,6 @@ if __name__ == '__main__':
     # trainset, validset, testset = get_dataset([0.01, 0.01, 0.98])
     # train(model, trainset, validset, epochs=2, device=device, batch=2)
 
-
     def demo1():
         model = BertClassifier().to(device=device)
         trainset, validset, testset = get_dataset()
@@ -217,6 +216,7 @@ if __name__ == '__main__':
 
 
     demo1()
+
 
     # train(model, trainset, validset, epochs=1)
     # torch.save(model.state_dict(), config['model_path'])
